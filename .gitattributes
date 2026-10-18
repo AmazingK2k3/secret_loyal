@@ -1,0 +1,11 @@
+# Normalise text to LF in the repo; let Windows check out CRLF where it likes.
+* text=auto
+
+# Shell scripts run on the rented Linux GPU box. CRLF would break the shebang
+# ("bad interpreter"), so force LF in the working tree too.
+*.sh text eol=lf
+
+# Keep diffs sane for generated and data files.
+uv.lock linguist-generated=true -diff
+*.eval binary
+*.safetensors binary

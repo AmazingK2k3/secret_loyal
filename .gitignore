@@ -1,0 +1,18 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+logs/
+data/
+weights/
+adapters/
+*.safetensors
+*.bin
+.ipynb_checkpoints/
+.DS_Store
+
+# Added at M0
+.pytest_cache/
+.ruff_cache/
+scans/
+*.eval
