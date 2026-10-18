@@ -31,6 +31,8 @@ transect = { git = "https://github.com/AI-Safety-Institute/transect.git" }
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+# Import envs.* from the repo root without an editable install.
+pythonpath = ["."]
 
 [tool.ruff]
 line-length = 100
