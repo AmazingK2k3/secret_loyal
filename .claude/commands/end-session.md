@@ -1,1 +1,0 @@
-We are ending this session. Update docs/PROGRESS.md with a new entry at the top (done, broken or blocked, decisions, costs incurred, next step). Add any decisions made today to docs/DECISIONS.md under Log, marking which were mine and which were engineering choices you made. Tick finished items in docs/ROADMAP.md. Then show me the diff of the docs only.

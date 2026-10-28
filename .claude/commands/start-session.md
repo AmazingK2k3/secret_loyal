@@ -1,1 +1,0 @@
-Read CLAUDE.md, docs/PROGRESS.md and the current milestone in docs/ROADMAP.md. Then tell me in five lines or fewer: where we stopped, what is broken, and the next concrete step you propose. Do not write code yet.

@@ -16,3 +16,9 @@ adapters/
 .ruff_cache/
 scans/
 *.eval
+
+# Internal working notes for the coding assistant. Kept on disk, out of the
+# repo: they are instructions to a tool, not part of the research record. The
+# research content they point at lives in docs/, which is tracked.
+CLAUDE.md
+.claude/
