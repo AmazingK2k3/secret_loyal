@@ -5,7 +5,7 @@ __pycache__/
 logs/
 data/
 weights/
-adapters/
+adapters/s
 *.safetensors
 *.bin
 .ipynb_checkpoints/
@@ -22,7 +22,7 @@ scans/
 CLAUDE.md
 .claude/
 
-# The research record, kept off the public repo (decided 28 Oct 2026). It holds
+# The research record, kept off the public repo . It holds
 # the proposal, the specs, the decision log, the session progress, the
 # pre-registration and the environment canon. UNIVERSE.md in particular
 # describes the world the agent inhabits, and publishing it would put the
